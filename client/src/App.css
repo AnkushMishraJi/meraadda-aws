@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,900;1,300&family=Source+Code+Pro:wght@700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  color: "white";
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none !important;
+}
+
+.nav-icons {
+  text-decoration: none !important;
+}
+
+.body {
+  background-color: #1a1b41;
+}
+.brand-logo,
+h2 {
+  font-family: "Source Code Pro", monospace !important;
+  color: #fe9124;
+}
+
+.auth-card {
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  max-width: 400px;
+  margin: 70px auto;
+}
+.btn {
+  margin-top: 15px;
+}
+.input-field input:focus {
+  text-align: center;
+  border-bottom: 1px solid rgb(84, 132, 196) !important;
+  box-shadow: 0 1px 0 0 rgb(42, 157, 252) !important;
+}
+
+.container-input {
+  width: 70%;
+  height: 3em;
+  border-radius: 2em;
+  background-color: white;
+  margin-top: 2em;
+}
+
+.inside-box {
+  padding-left: 1em !important;
+  padding-bottom: 1.5em !important;
+  top: 0em !important;
+  border: none !important;
+  height: 1em !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+input:not([type]),
+input[type="text"]:not(.browser-default),
+input[type="password"]:not(.browser-default),
+input[type="email"]:not(.browser-default),
+input[type="url"]:not(.browser-default),
+input[type="time"]:not(.browser-default),
+input[type="date"]:not(.browser-default),
+input[type="datetime"]:not(.browser-default),
+input[type="datetime-local"]:not(.browser-default),
+input[type="tel"]:not(.browser-default),
+input[type="number"]:not(.browser-default),
+input[type="search"]:not(.browser-default),
+textarea.materialize-textarea {
+  border: none !important;
+  font-family: "Montserrat", sans-serif !important ;
+  font-weight: 400;
+}
+a {
+  color: inherit !important;
+}
+.bg-orange {
+  background-color: #fe9124;
+}
+.profilebox {
+  margin: 40px 80px;
+  padding-bottom: 40px;
+  justify-content: space-around;
+  display: flex;
+  border-bottom: solid 2px gray;
+}
+.profilebox img {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+.gallery {
+  width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 10px;
+}
+.gallery img {
+  width: 300px;
+  height: 300px;
+}
+
+.post-bar {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding: 10px;
+}
+
+.home-card {
+  max-width: 800px;
+}
+
+.checkbox {
+  padding: 10px !important;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: 0px auto;
+  padding: 0px auto;
+  background-color: whitesmoke;
+}
+.left-sidebar {
+  margin: 10px;
+  font-size: 20px;
+  background-color: white;
+  height: 100vh;
+  box-shadow: gray 1px 1px 2px 1px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+.left-sidebar h6 {
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  left: 100px;
+}
+
+.center-bar {
+  margin: 10px;
+  background-color: white;
+  min-height: 100vh;
+  margin: 10px;
+  box-shadow: gray 1px 1px 2px 1px;
+}
+
+.booking-box {
+  padding: 20px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: white;
+  box-shadow: gray 1px 1px 2px 1px;
+}
+
+.hlist {
+  margin: auto;
+  margin-top: 15px;
+  padding: 0px;
+  height: 40%;
+  width: 85%;
+  border-radius: 10px;
+  line-height: 0vmin;
+  display: grid;
+  grid-template-rows: 3f 1fr;
+  background-color: white;
+  text-decoration: none;
+}
+
+.hlist-img {
+  width: 100%;
+  height: 15em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.half-card {
+  display: block;
+  margin: 10px;
+  padding: none;
+  color: black;
+  text-decoration: none;
+  line-height: 0em;
+}
+.bill {
+  margin: 20px;
+  display: grid;
+  line-height: 0.75vmin !important;
+  grid-gap: 15px;
+}
+.imgDot {
+  width: fit-content;
+  height: fit-content;
+  margin: 20px;
+  padding: 15px;
+  border: dashed 2px;
+  border-color: grey;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 0.75em;
+  padding: 1em;
+  text-align: center;
+}
+
+.input:placeholder-shown {
+  /* Chrome/Opera/Safari */
+  padding: 1em;
+  text-align: center;
+}
+
+::-moz-placeholder {
+  /*firefox*/
+  text-align: center;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+.w-80 {
+  width: 80% !important;
+}
+
+.title_text {
+  color: #fe9124;
+}
+
+.f-10 {
+  font-size: 0.25em;
+}
+
+.f-12 {
+  font-size: 0.5em;
+}
+
+.f-14 {
+  font-size: 0.75em;
+}
+
+.f-16 {
+  font-size: 1em;
+}
+
+.f-18 {
+  font-size: 1.25em;
+}
+
+.f-20 {
+  font-size: 1.5em;
+}
+
+.f-24 {
+  font-size: 1.75em;
+}
+
+.f-32 {
+  font-size: 2em;
+}
+
+.f-36 {
+  font-size: 2.5em;
+}
+
+.f-44 {
+  font-size: 3em;
+}
+
+.font-weight-lighter {
+  font-weight: 200;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-bold {
+  font-weight: 500;
+}
+
+.font-weight-bolder {
+  font-weight: 600;
+}
+.rounded-7 {
+  border-radius: 20px !important;
+}
+
+.line-ht-0 {
+  line-height: 0vmin;
+}
+.line-ht-2 {
+  line-height: 2vmin;
+}
+.line-ht-8 {
+  line-height: 8vmin;
+}
+.no-text-decor {
+  text-decoration: none !important;
+}
